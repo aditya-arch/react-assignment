@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 95% !important;
+    margin: 1rem auto;
+  }
+
+  table {
+    width: 95% !important;
+  }
+}
